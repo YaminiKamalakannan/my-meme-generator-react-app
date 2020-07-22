@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  background-color: whitesmoke;
+}
+header{
+  height: 100%;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #7c2a09;
+  background: -webkit-linear-gradient(to right, #2a0845, #7c2a09);
+  background: linear-gradient(to right, #2a0845, #7c2a09);
+}
+
+header>img{
+  width: 100px;
+  height: 100px;
+  margin-left: -5%;
+}
+
+header>p{
+  font-family:impact, sans-serif;
+  color: whitesmoke;
+  font-size: 50px;
+  margin-left: 60px;
+}
+
+.meme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.meme>img{
+  widows: 100%;
+}
+.meme>h2{
+    position:absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin:15px 0 ;
+    padding: 0 5px;
+    font-family: impact,sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.meme-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.meme-form input{
+  height:29px ;
+  border: 1px solid #110202;
+}
+.meme-form input:placeholder-shown{
+  font-size: large;
+  font-family: VT323, monospace;
+  text-align: center;
+}
+.meme-form input:focus{
+  outline: none;
+}
+.meme-form button{
+  width: 100px;
+  height: 33px;
+  background-color: #6e0909cc;
+  color: whitesmoke;
+  font-size: large;
+  font-family: VT323, monospace;
+  text-align: center;
+  border: none;
+}
+.meme-form button:focus{
+ outline: none;
+}
+.meme-form button:hover{
+  color: rgb(39, 2, 56);
+  background: -webkit-linear-gradient(to right, #2a0845b0, #7c2a09d2);
+  background: linear-gradient(to right, #2a08459c, #7c2a09a4);
+   
+}
+.top{
+  position: absolute;
+  top:-10px;  
+}
+.bottom{
+  position: absolute;
+  bottom:-10px;  
+}
